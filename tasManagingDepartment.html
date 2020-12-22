@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ftas_layout.css" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <div class ="acc">
+                Account:
+            </div>
+            <div class ="id">
+                Admin
+            </div>
+        </div>    
+        <div>
+            <div class ="acc">
+                Name:
+            </div>
+            <div class ="fullname">
+                BUN_Teacher_And_Student_Managing_Department
+            </div>
+        </div>    
+    </div>
+    <div class="bt">
+        <button class="button bt1" onclick="Add()">Add Timetable</button>
+        <button class="button bt1" onclick="C_D()">Change or Delete</button>
+    </div>
+    <div id="div" class="none">
+        <form action="/action_page.php" class="add_ttid">
+            <label class="ttid">Timetable ID:</label>
+            <input type="text" placeholder="Timetable ID...">
+        </form>
+        <table>
+            <tr>
+                <th class="lp">Lesson Period</th>
+                <th class="day">Monday</th> 
+                <th class="day">Tuesday</th>
+                <th class="day">Wednesday</th>
+                <th class="day">Thursday</th>
+                <th class="day">Friday</th>
+            </tr>
+            <tr>
+                <td class="f9f9f9">1</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">2</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">3</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">4</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">5</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">6</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">7</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">8</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">9</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">10</td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+                <td class="f9f9f9"><input class="write" placeholder="Lesson..."></td>
+            </tr>
+        </table>
+        <div class="tbt">
+            <div class="login">
+                <a href="http://127.0.0.1:5501/login.html" class="link">Add</a>
+            </div>    
+            <button class="button link-button cc">Cancel</button>
+        </div>
+    </div>
+
+
+    <div id="div2" class="none">
+        <form action="/action_page.php" class="add_ttid">
+            <label class="ttid">Timetable ID:</label>
+            <input type="text" placeholder="Timetable ID...">
+            <div class="login">
+                <a href="http://127.0.0.1:5501/login.html" class="link">Change</a>
+            </div>
+            <div class="login">
+                <a href="http://127.0.0.1:5501/login.html" class="link">Delete</a>
+            </div>
+        </form>
+    </div>    
+        
+    <script>
+    
+    function Add() {
+        var x = document.getElementById("div");
+        var y = document.getElementById("div2");
+        if (x.style.display === "none" && y.style.display === "none") {
+            x.style.display = "block";
+        } else if (x.style.display === "none" && y.style.display === "block") {
+            x.style.display = "block";
+            y.style.display = "none";
+        } else if (x.style.display === "block" && y.style.display === "none") {
+  	        x.style.display = "none";
+        } else {
+            x.style.display = "none";
+            y.style.display = "none";
+        }
+    }
+
+    function C_D() {
+        var x = document.getElementById("div");
+        var y = document.getElementById("div2");
+        if (x.style.display === "none" && y.style.display === "none") {
+            y.style.display = "block";
+        } else if (x.style.display === "none" && y.style.display === "block") {
+            y.style.display = "none";
+        } else if (x.style.display === "block" && y.style.display === "none") {
+            x.style.display = "none";
+            y.style.display = "block";
+        } else {
+            x.style.display = "none";
+            y.style.display = "none";
+        }
+    }
+
+    </script>
+</body>
+</html>

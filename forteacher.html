@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ft_layout.css" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <div class ="acc">
+                Account:
+            </div>
+            <div class ="id">
+                Teacher
+            </div>
+        </div>    
+        <div>
+            <div class ="acc">
+                Name:
+            </div>
+            <div class ="fullname">
+                Bun_Teacher
+            </div>
+        </div>    
+    </div>
+    <div class="bt-block">
+        <button class="button" onclick="timeTable()">Timetable</button>
+    </div>
+    <div id="div" class="none">
+        <p class="title">Bun_teacher's Timetable:</p>
+        <table>
+            <tr>
+                <th class="lp">Lesson Period</th>
+                <th class="day">Monday</th> 
+                <th class="day">Tuesday</th>
+                <th class="day">Wednesday</th>
+                <th class="day">Thursday</th>
+                <th class="day">Friday</th>
+            </tr>
+            <tr>
+                <td class="f9f9f9">1</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">2</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">3</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">4</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">5</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">6</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">7</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">8</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">9</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+            </tr>
+            <tr>
+                <td class="f9f9f9">10</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+                <td class="f9f9f9">Software Engineering(304T5)</td>
+                <td class="f9f9f9">Programming in Python/Scala(502T5)</td>
+            </tr>
+        </table>
+    </div>
+        
+    <script>
+    function timeTable() {
+        var x = document.getElementById("div");
+        if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
+    }
+    </script>
+</body>
+</html>
